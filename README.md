@@ -13,6 +13,7 @@ To get the Rails server running locally:
 3. `bundle install` to install all required dependencies
 4. `rails db:migrate` to make all database migrations
 5. `rails s`
+6. Go to your browser and open http://localhost:3000
 
 # Code Overview
 
@@ -27,4 +28,3 @@ To get the Rails server running locally:
 - `app/controllers` - Contains the controllers where requests are routed to their actions, where we find and manipulate our models and return them for the views to render.
 - `config` - Contains configuration files for our Rails application and for our database.
 - `db` - Contains the migrations needed to create our database schema.
-
